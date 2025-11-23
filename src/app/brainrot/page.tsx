@@ -83,7 +83,7 @@ export default function BrainrotPage() {
            }
          />
          <Image
-        src="/img/tung-tung-sahur.png"
+        src="/img/tung-tung-tung-sahur.png"
         alt="Tung"
         width={300} // adjust size as needed
         height={300}
