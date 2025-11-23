@@ -1,0 +1,71 @@
+[
+  { "id": 1,  "slug": "water",   "name": "Water",   "emoji": "💧", "is_character": false, "is_base_element": true },
+  { "id": 2,  "slug": "dirt",    "name": "Dirt",    "emoji": "🪨", "is_character": false, "is_base_element": true },
+  { "id": 3,  "slug": "sun",     "name": "Sun",     "emoji": "☀️", "is_character": false, "is_base_element": true },
+  { "id": 4,  "slug": "person",  "name": "Person",  "emoji": "🧍", "is_character": false, "is_base_element": true },
+  { "id": 5,  "slug": "dance",   "name": "Dance",   "emoji": "💃", "is_character": false, "is_base_element": true },
+  { "id": 6,  "slug": "coffee",  "name": "Coffee",  "emoji": "☕", "is_character": false, "is_base_element": true },
+  { "id": 7,  "slug": "metal",   "name": "Metal",   "emoji": "⚙️", "is_character": false, "is_base_element": true },
+  { "id": 8,  "slug": "tool",    "name": "Tool",    "emoji": "🛠️", "is_character": false, "is_base_element": true },
+  { "id": 9,  "slug": "animal",  "name": "Animal",  "emoji": "🐾", "is_character": false, "is_base_element": true },
+  { "id": 10, "slug": "sea",     "name": "Sea",     "emoji": "🌊", "is_character": false, "is_base_element": false },
+  { "id": 11, "slug": "shoe",    "name": "Shoe",    "emoji": "👟", "is_character": false, "is_base_element": true },
+  { "id": 12, "slug": "air",     "name": "Air",     "emoji": "🌬️", "is_character": false, "is_base_element": true },
+
+  { "id": 20, "slug": "sprout",  "name": "Sprout",  "emoji": "🌱", "is_character": false },
+  { "id": 21, "slug": "tree",    "name": "Tree",    "emoji": "🌳", "is_character": false },
+  { "id": 22, "slug": "log",     "name": "Log",     "emoji": "🪵", "is_character": false },
+
+  { "id": 23, "slug": "chainsaw","name": "Chainsaw","emoji": "🪚", "is_character": false },
+  { "id": 24, "slug": "bat",     "name": "Baseball Bat","emoji": "🏏", "is_character": false },
+
+  { "id": 25, "slug": "ballerina","name": "Ballerina","emoji": "🩰", "is_character": false },
+
+  { "id": 26, "slug": "fish",   "name": "Fish",   "emoji": "🐟", "is_character": false },
+  { "id": 27, "slug": "shark",  "name": "Shark",  "emoji": "🦈", "is_character": false },
+
+  { "id": 33, "slug": "pond",      "name": "Pond",      "emoji": "🏞️", "is_character": false },
+  { "id": 34, "slug": "crocodile", "name": "Crocodile", "emoji": "🐊",  "is_character": false },
+  { "id": 35, "slug": "plane",     "name": "Plane",     "emoji": "✈️",  "is_character": false },
+
+  {
+    "id": 30,
+    "slug": "tung-tung-tung-sahur",
+    "name": "Tung Tung Tung Sahur",
+    "emoji": "🕌",
+    "is_character": true,
+    "image_url": "/img/tung-tung-sahur.png",
+    "rarity": "legendary",
+    "difficulty": 2
+  },
+  {
+    "id": 31,
+    "slug": "ballerina-cappuccina",
+    "name": "Ballerina Cappuccina",
+    "emoji": "🩰",
+    "is_character": true,
+    "image_url": "/img/ballerina-cappuccina.png",
+    "rarity": "legendary",
+    "difficulty": 2
+  },
+  {
+    "id": 32,
+    "slug": "tralalero-tralala",
+    "name": "Tralalero Tralala",
+    "emoji": "🦈👟",
+    "is_character": true,
+    "image_url": "/img/tralalero-tralala.png",
+    "rarity": "rare",
+    "difficulty": 1
+  },
+  {
+    "id": 36,
+    "slug": "bombardino-crocodilo",
+    "name": "Bombardino Crocodilo",
+    "emoji": "🛩️🐊",
+    "is_character": true,
+    "image_url": "/img/bombardino-crocodilo.png",
+    "rarity": "epic",
+    "difficulty": 2
+  }
+]

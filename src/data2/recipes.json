@@ -1,0 +1,22 @@
+{
+
+  "1+2":  { "result_id": 20 }, 
+  "3+20": { "result_id": 21 }, 
+
+  "7+8":  { "result_id": 23 },  
+  "21+23":{ "result_id": 22 }, 
+  "8+21": { "result_id": 24 }, 
+  "22+24":{ "result_id": 30 },  
+
+  "4+5":  { "result_id": 25 }, 
+  "6+25": { "result_id": 31 }, 
+
+  "9+10": { "result_id": 26 }, 
+  "10+26":{ "result_id": 27 }, 
+  "11+27":{ "result_id": 32 },  
+  "1+33": { "result_id": 10 }, 
+  "1+1":  { "result_id": 33 },  
+  "9+33": { "result_id": 34 },  
+  "7+12": { "result_id": 35 },  
+  "34+35":{ "result_id": 36 }   
+}
