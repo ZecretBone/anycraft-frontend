@@ -94,7 +94,7 @@
 
 // Centralized API helpers for the compose backend
 
-const API_BASE = process.env.NEXT_PUBLIC_API_BASE ?? "http://localhost:8080";
+const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8080";
 const GAME_CODE = process.env.NEXT_PUBLIC_GAME_CODE ?? "brainrot";
 
 type FetchJsonOpts = {

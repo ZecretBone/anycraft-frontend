@@ -37,7 +37,7 @@ export default function BrainrotPage() {
   const [spawnReq, setSpawnReq] = useState<SpawnRequest | undefined>();
 
   return (
-    <div className="relative min-h-screen bg-black text-white pb-[120px]">
+    <div className="relative min-h-screen bg-black text-white pb-[80px]">
 
   {/* Squares fixed background */}
   {/* <div className="fixed inset-0 pointer-events-none z-0">
