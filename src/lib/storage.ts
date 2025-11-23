@@ -1,28 +1,4 @@
-// const FOUND_KEY = "br_found_ids";
-// const DEVICE_ID_KEY = "br_device_id";
 
-// export function getDeviceId(): string {
-//   if (typeof window === "undefined") return "server";
-//   let id = localStorage.getItem(DEVICE_ID_KEY);
-//   if (!id) {
-//     id = crypto.randomUUID();
-//     localStorage.setItem(DEVICE_ID_KEY, id);
-//   }
-//   return id;
-// }
-
-// export function getFoundIds(): number[] {
-//   if (typeof window === "undefined") return [];
-//   const raw = localStorage.getItem(FOUND_KEY);
-//   return raw ? JSON.parse(raw) : [];
-// }
-
-// export function addFoundId(id: number) {
-//   if (typeof window === "undefined") return;
-//   const set = new Set(getFoundIds());
-//   set.add(id);
-//   localStorage.setItem(FOUND_KEY, JSON.stringify([...set]));
-// }
 
 
 const FOUND_KEY = "br_found_ids";

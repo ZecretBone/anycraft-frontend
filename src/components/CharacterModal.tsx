@@ -1,46 +1,4 @@
-// "use client";
-// import { Element } from "@/lib/types";
 
-// export default function CharacterModal({
-//   open,
-//   character,
-//   onClose
-// }: {
-//   open: boolean;
-//   character?: Element;
-//   onClose: () => void;
-// }) {
-//   if (!open || !character) return null;
-//   return (
-//     <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/70">
-//       <div className="w-[min(92vw,420px)] rounded-xl bg-white text-black shadow-lg overflow-hidden">
-//         <div className="p-4 flex items-center gap-3">
-//           {character.image_url ? (
-//             <img
-//               src={character.image_url}
-//               alt={character.name}
-//               className="w-14 h-14 rounded"
-//             />
-//           ) : (
-//             <div className="text-4xl">{character.emoji ?? "🧩"}</div>
-//           )}
-//           <div>
-//             <div className="font-bold">{character.name}</div>
-//             <div className="text-xs opacity-70">
-//               Discovered by ~— % of players
-//             </div>
-//           </div>
-//           <button
-//             onClick={onClose}
-//             className="ml-auto px-3 py-1 rounded bg-black text-white"
-//           >
-//             Close
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 // src/components/CharacterModal.tsx
 "use client";
